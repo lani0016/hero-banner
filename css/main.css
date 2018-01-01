@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.5
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width:100%;
+}
+
+body {
+  margin:0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+div.banner-content {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 50em;
+  color: #fff;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 1.5rem;
+}
+
+div h2 {
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: -1px;
+  line-height: 1.4;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5)
+}
+
+div p {
+  font-size: 2rem;
+  margin: 0;
+  color: #000;
+  font-style: italic;
+  font-weight: normal;
+  padding-top: .5em;
+}
+
+.banner img {
+  width: 100%;
+}
