@@ -33,6 +33,7 @@ div.banner-content {
   transform: translateX(-50%);
   margin: 0;
   padding: 1.5rem;
+  z-index: 2;
 }
 
 div h2 {
